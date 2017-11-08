@@ -20,3 +20,6 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+/spring-boot/spring-boot-samples/4-dubbo-with-multi-protocol/4-dubbo-sample-api-2/target
+/spring-boot/spring-boot-samples/4-dubbo-with-starter/4-dubbo-sample-api/target
+/spring-boot/spring-boot-samples/4-dubbo-quickstart/4-dubbo-quickstart-api/target
