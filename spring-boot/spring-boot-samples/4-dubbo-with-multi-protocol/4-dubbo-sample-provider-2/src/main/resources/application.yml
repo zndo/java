@@ -1,0 +1,26 @@
+# dubbo
+spring:
+  dubbo:
+    application:
+      name: dubbo-provider
+    registry:
+      address: zookeeper://127.0.0.1:2181
+    # multi protocol supports
+    #  dubbo protocol
+    protocol:
+      name: dubbo
+      serialization: hessian2
+      port: 20880
+    # hessian protocol
+    protocols:
+      - name: hessian
+        serialization: hessian2
+        port: 20887
+    provider:
+      retries: 0
+    base-package: zndo.samples.boot.dubbo.service
+
+# Logging
+logging:
+  level:
+    root: INFO

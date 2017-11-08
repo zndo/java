@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>zndo.samples.boot</groupId>
+		<artifactId>spring-boot-samples</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+
+	<artifactId>4-dubbo-quickstart</artifactId>
+	<packaging>pom</packaging>
+
+	<name>4-dubbo-quickstart</name>
+	<description>Spring Boot 集成 Dubbo 示例项目</description>
+
+	<modules>
+		<module>4-dubbo-quickstart-api</module>
+		<module>4-dubbo-quickstart-provider</module>
+		<module>4-dubbo-quickstart-consumer</module>
+	</modules>
+</project>
